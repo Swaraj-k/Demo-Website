@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About us</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="../views/contact.pug">Contact us</a></li>
+            <li><a href="/">Help</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <form action="/contact" method="post" class="myForm">
+            <input type="text" class="myInput" placeholder="Enter Your Name">
+            <input type="phone" class="myInput" placeholder="Enter Your Mobile No.">
+            <input type="email" class="myInput" placeholder="Enter Your Email">
+            <input type="text" class="myInput" placeholder="Enter Your Address">
+            <input type="text" class="myInput" placeholder="Enter Your Description">
+            <button class="btn">Submit</button>
+        </form>
+
+    </div>
+</body>
+
+</html>
